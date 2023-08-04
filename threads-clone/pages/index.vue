@@ -1,11 +1,9 @@
 <template>
-  <div>
+  <MainLayout>
     INDEX
-  </div>
+  </MainLayout>
 </template>
 
-<script>
-  export default {
-
-  }
+<script setup>
+import MainLayout from '~/layouts/MainLayout.vue'
 </script>
