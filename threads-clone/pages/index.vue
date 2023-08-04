@@ -21,7 +21,7 @@ const userStore = useUserStore()
 // const user = useSupabaseUser()
 
 let posts = ref([])
-let isPosts = ref(false)
+let isPosts = ref(true)
 let isLoading = ref(false)
 
 onBeforeMount(() => {
@@ -30,7 +30,7 @@ onBeforeMount(() => {
       name: 'John Doe',
       image: 'https://placehold.co/100',
       text: 'This is the title',
-      picture: 'https://placehold.co/100',
+      picture: 'https://placehold.co/500',
     }
   ]
 })
